@@ -24,7 +24,7 @@ body {
     .navbar .container {
       padding: 0 15px; } }
   .navbar .navbar-brand img {
-    width: 140px !important;
+    width: 250px !important;
     height: 90px !important;
     object-fit: cover;
     mix-blend-mode: multiply; }
@@ -35,10 +35,10 @@ body {
     justify-content: flex-end; }
     .navbar .navbar-nav .nav-link {
       font-weight: bold;
-      color: #014073;
+      color: #0b3751;
       margin-inline-end: 16px; }
     .navbar .navbar-nav .nav-item.active .nav-link {
-      color: #f2a000; }
+      color: #95714c; }
   .navbar .sign {
     display: flex; }
     @media (max-width: 991px) {
@@ -62,20 +62,19 @@ body {
 
 /*upper Nav */
 .upperNav {
-  background-color: #f2a000;
-  direction: ltr !important; }
+  background-color: #95714c; }
   .upperNav .content {
     padding: 13px 0; }
     .upperNav .content .left-contact {
       justify-content: space-between; }
       .upperNav .content .left-contact p {
         margin: 0;
-        margin-right: 50px;
+        margin-left: 50px;
         display: flex;
         align-items: center; }
         .upperNav .content .left-contact p span {
           font-size: 14px;
-          color: #212529; }
+          color: #fff; }
       .upperNav .content .left-contact a {
         text-decoration: none;
         display: flex;
@@ -84,7 +83,7 @@ body {
           margin-inline-end: 7px; }
         .upperNav .content .left-contact a span {
           font-size: 14px;
-          color: #212529; }
+          color: #fff; }
     .upperNav .content .social a {
       margin-right: 12px; }
     @media (max-width: 767px) {
@@ -145,7 +144,7 @@ body {
         transform: translateY(-50%);
         height: fit-content; }
         .carousel .carousel-inner .carousel-item .carousel-caption span {
-          background-color: #014073;
+          background-color: #0b3751;
           padding: 8px;
           text-transform: uppercase;
           display: block;
@@ -171,7 +170,7 @@ body {
   height: 6px;
   opacity: 1; }
 .carousel-indicators li.active {
-  background-color: #f2a000; }
+  background-color: #95714c; }
 
 /* controls */
 .carousel-control-next,
@@ -197,7 +196,7 @@ h3.w3_heade_tittle_agile.two {
 p.sub_t_agileits {
   font-size: 1em;
   margin: 0;
-  color: #f2a000;
+  color: #95714c;
   margin-bottom: 3em;
   font-weight: 400;
   text-align: center; }
@@ -214,7 +213,7 @@ p.ab {
 h5.w3l-subtitle {
   margin-bottom: 0.7em;
   font-weight: 700;
-  color: #014073;
+  color: #0b3751;
   font-size: 1.8em; }
 
 .w3about-text {
@@ -226,7 +225,7 @@ h5.w3l-subtitle {
     position: absolute;
     width: 50px;
     height: 50px;
-    border-color: #014073;
+    border-color: #0b3751;
     border-style: solid; }
   .w3about-text::after {
     top: 0;
@@ -253,7 +252,7 @@ h5.w3l-subtitle {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
   position: relative;
-  background: #f2a000;
+  background: #95714c;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -267,7 +266,7 @@ h5.w3l-subtitle {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #014073;
+  background: #0b3751;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition-property: transform;
@@ -295,7 +294,7 @@ h5.w3l-subtitle {
 .w3about-img {
   margin-bottom: 24px; }
   .w3about-img img {
-    height: 420px; }
+    height: 500px; }
     @media (max-width: 425px) {
       .w3about-img img {
         height: 275px; } }
@@ -333,13 +332,13 @@ h5.w3l-subtitle {
   .what-we-do h2 {
     text-align: center;
     font-weight: 700;
-    color: #014073;
+    color: #0b3751;
     font-size: 3em;
     margin-bottom: 12px; }
   .what-we-do p.desc {
     font-size: 1em;
     margin: 0;
-    color: #f2a000;
+    color: #95714c;
     margin-bottom: 3em;
     font-weight: 400;
     text-align: center; }
@@ -378,7 +377,7 @@ h5.w3l-subtitle {
       border-width: 0 1px 1px 0; }
     .what-we-do .our-issues h5 {
       font-weight: bold;
-      color: #014073;
+      color: #0b3751;
       margin-bottom: 16px;
       position: relative; }
       .what-we-do .our-issues h5::after {
@@ -388,7 +387,7 @@ h5.w3l-subtitle {
         left: 50%;
         width: 15%;
         height: 3px;
-        background-color: #014073;
+        background-color: #0b3751;
         display: block;
         transform: translateX(-50%);
         transition: 0.3s; }
@@ -399,13 +398,14 @@ h5.w3l-subtitle {
     .what-we-do .our-issues:hover::before, .what-we-do .our-issues:hover::after {
       width: 100%;
       height: 100%;
-      border-color: #f2a000; }
+      border-color: #95714c; }
     .what-we-do .our-issues:hover h5::after {
       width: 30%; }
 
 /*history*/
 .history {
   padding: 60px 0;
+  background-color: transparent;
   position: relative; }
   .history .carousel .carousel-inner .carousel-item::after {
     display: none; }
@@ -421,7 +421,7 @@ h5.w3l-subtitle {
       font-size: 26px;
       line-height: 1.5;
       font-weight: 700;
-      color: #014073;
+      color: #0b3751;
       margin-top: 0px;
       margin-bottom: 12px; }
     .history .slide-head p.head-desc {
@@ -429,7 +429,7 @@ h5.w3l-subtitle {
       font-weight: normal;
       line-height: 2.3;
       margin-bottom: 0px;
-      color: #f2a000; }
+      color: #95714c; }
   .history .content {
     flex-wrap: wrap;
     text-align: right;
@@ -470,7 +470,7 @@ h5.w3l-subtitle {
           margin-left: 15px;
           font-weight: bold;
           flex-shrink: 0;
-          color: #014073; }
+          color: #0b3751; }
           .history .content li .feat-step span::before {
             content: "";
             position: absolute;
@@ -479,7 +479,7 @@ h5.w3l-subtitle {
             border-radius: inherit;
             border-width: 3px;
             border-style: solid;
-            border-color: #014073 transparent #014073 #014073;
+            border-color: #0b3751 transparent #0b3751 #0b3751;
             border-image: initial;
             box-sizing: border-box;
             transition: all 0.25s ease-in-out;
@@ -491,7 +491,7 @@ h5.w3l-subtitle {
           font-weight: 700;
           font-size: 18px;
           line-height: 1.5;
-          color: #014073; }
+          color: #0b3751; }
         .history .content li .feat-step .step-holder p {
           color: #343d48;
           font-size: 15px;
@@ -607,7 +607,7 @@ h5.w3l-subtitle {
   .contact-us .contact-desc {
     font-size: 1em;
     margin: 0;
-    color: #f2a000;
+    color: #95714c;
     margin-bottom: 3em;
     font-weight: 400;
     text-align: center; }
@@ -650,13 +650,13 @@ h5.w3l-subtitle {
 
 /*footer*/
 footer {
-  background-color: #014073;
+  background-color: #0b3751;
   padding: 80px 0;
   position: relative; }
   footer h3 {
-    color: #f2a000;
+    color: #fff;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 16px; }
   footer .left-footer {
     text-align: start; }
@@ -703,12 +703,13 @@ footer {
             font-size: 13px !important; } }
   footer .copyRights {
     bottom: 0;
-    background: #f2a000;
+    background: #95714c;
     left: 50%;
     transform: translateX(-50%);
     padding: 24px; }
     footer .copyRights span {
-      font-size: 16px; }
+      font-size: 16px;
+      color: #fff; }
     footer .copyRights .social a {
       margin-right: 12px;
       text-decoration: none; }
@@ -827,7 +828,7 @@ footer {
   margin-top: 0;
   font-weight: bold;
   font-size: 18px;
-  color: #014073;
+  color: #0b3751;
   margin-bottom: 0; }
 
 .testimonial .job {
@@ -849,13 +850,13 @@ footer {
   .departs .depart-p {
     font-size: 1em;
     margin: 0;
-    color: #f2a000;
+    color: #95714c;
     margin-bottom: 3em;
     font-weight: 400;
     text-align: center; }
 
 .card-header {
-  background-color: #014073; }
+  background-color: #0b3751; }
   .card-header h5 {
     text-align: start; }
     .card-header h5 .btn-link {
@@ -876,5 +877,31 @@ footer {
     font-size: 16px;
     line-height: 26px;
     color: #828282; }
+
+#mySlide li {
+  background-color: transparent; }
+
+.my-alert {
+  background: transparent;
+  border: none;
+  color: #c43232;
+  text-align: end;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  padding-inline-end: 0;
+  padding-top: 5px;
+  padding-bottom: 0;
+  display: none; }
+
+/*about__page*/
+.about__page .w3about-text::after,
+.about__page .w3about-text::before {
+  display: none; }
+
+.why__us ul li {
+  padding: 8px 0;
+  line-height: 2em;
+  color: #828282; }
 
 /*# sourceMappingURL=style.css.map */
